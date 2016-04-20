@@ -1,7 +1,7 @@
 {
-  "name": "FXEMPIRE js-assessment",
+  "name": "fxempire-js-assessment",
   "version": "1.0.0",
-  "description": "FXEMPIRE javascript assessment",
+  "description": "",
   "scripts": {
     "start": "node index.js",
     "test": "mocha -R spec 'tests/app'"
@@ -26,7 +26,7 @@
     "type": "git",
     "url": "git+https://github.com/FXEmpire/fxempire-js-assessment.git"
   },
-  "author": "FXEMPIRE",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/FXEmpire/fxempire-js-assessment/issues"
