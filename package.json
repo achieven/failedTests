@@ -1,7 +1,11 @@
 {
-  "author": "FXEMPIRE",
-  "name": "FXEMPIRE assessment",
-  "description": "FXEMPIRE test-driven assessment of JavaScript skills",
+  "name": "FXEMPIRE js-assessment",
+  "version": "1.0.0",
+  "description": "FXEMPIRE javascript assessment",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha -R spec 'tests/app'"
+  },
   "dependencies": {
     "backbone": "^1.1.2",
     "chai": "^2.3.0",
@@ -18,8 +22,14 @@
     "sinon": "^1.14.1",
     "underscore": "1.8.x"
   },
-  "scripts": {
-    "start": "node index.js",
-    "test": "mocha -R spec 'tests/app'"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FXEmpire/fxempire-js-assessment.git"
+  },
+  "author": "FXEMPIRE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FXEmpire/fxempire-js-assessment/issues"
+  },
+  "homepage": "https://github.com/FXEmpire/fxempire-js-assessment#readme"
 }
